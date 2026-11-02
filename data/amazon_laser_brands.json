@@ -1,0 +1,136 @@
+{
+  "brands": [
+    {
+      "brand_name": "Creality Falcon",
+      "company_name": "Shenzhen Creality 3D Technology Co., Ltd. / Creality US",
+      "domain": "creality.com",
+      "website": "https://www.creality.com",
+      "email": "regulatory@creality.com",
+      "phone": "+1 (833) 513-2529",
+      "products_on_amazon": "Falcon 2 22W / 40W Enclosed & Open Frame Diode Laser Engravers",
+      "amazon_risk_factors": "Class IV laser engravers actively targeted under Amazon Policy 201689020; missing visible FDA accession number on Amazon listing pages; customs Form 2877 Declaration B hold risk.",
+      "pitch_angle": "Protect top-ranked Amazon laser engraver ASINs against sudden gating suspensions with automated Form FDA 3632 filing and annual 3636 maintenance.",
+      "mx_valid": true,
+      "mx_records": [
+        "1 mx1.feishu.cn.",
+        "5 mx2.feishu.cn.",
+        "10 mx3.feishu.cn."
+      ]
+    },
+    {
+      "brand_name": "SCULPFUN",
+      "company_name": "Shenzhen Sculpfun Technology Co., Ltd.",
+      "domain": "sculpfun.com",
+      "website": "https://www.sculpfun.com",
+      "email": "info@sculpfun.com",
+      "phone": "+86-755-27806522",
+      "products_on_amazon": "Sculpfun S9, S30 Pro, S30 Ultra 33W Laser Cutter & Engraver Modules",
+      "amazon_risk_factors": "High-powered laser modules sold without certified protective enclosures; frequent Amazon policy compliance notices for EPRC verification.",
+      "pitch_angle": "Turnkey FDA Form 3632 accession number filing in 5 business days for $495 flat, preventing FBA inventory freezes.",
+      "mx_valid": true,
+      "mx_records": [
+        "10 mxw.mxhichina.com.",
+        "5 mxn.mxhichina.com."
+      ]
+    },
+    {
+      "brand_name": "TwoTrees",
+      "company_name": "Shenzhen Two Trees Technology Co., Ltd.",
+      "domain": "twotrees3d.com",
+      "website": "https://www.twotrees3d.com",
+      "email": "sales@twotrees3d.com",
+      "phone": "+86-755-23764048",
+      "products_on_amazon": "TwoTrees TTS-55, TS2 20W Enclosed Laser Engravers",
+      "amazon_risk_factors": "Amazon EPRC compliance sweeps requiring proof of CDRH accession numbers and US Agent representation.",
+      "pitch_angle": "Dual service: FDA 3632 product report plus US Agent representation (21 CFR 1005.25) to maintain un-gated Amazon status.",
+      "mx_valid": true,
+      "mx_records": [
+        "5 mxbiz1.qq.com.",
+        "10 mxbiz2.qq.com."
+      ]
+    },
+    {
+      "brand_name": "KAIWEETS",
+      "company_name": "Shenzhen Kaiweets Instruments Co., Ltd.",
+      "domain": "kaiweets.com",
+      "website": "https://www.kaiweets.com",
+      "email": "info@kaiweets.com",
+      "phone": "+86-755-23762035",
+      "products_on_amazon": "KT360A 3D 12-Line Self-Leveling Green Laser Level, T03 Line Laser",
+      "amazon_risk_factors": "Subject to Laser Notice 54 5.0 mW power restrictions; mandatory FDA accession number for customs Form 2877 Declaration B.",
+      "pitch_angle": "Fixed-fee $495 FDA accession filing for laser levels, undercutting Registrar Corp's $995 fee by 50% with faster turnaround.",
+      "mx_valid": true,
+      "mx_records": [
+        "15 mx3.qiye.aliyun.com.",
+        "5 mx1.qiye.aliyun.com.",
+        "10 mx2.qiye.aliyun.com."
+      ]
+    },
+    {
+      "brand_name": "CIGMAN",
+      "company_name": "Shenzhen Cigman Technology Co., Ltd.",
+      "domain": "cigman.com",
+      "website": "https://www.cigman.com",
+      "email": "info@cigman.com",
+      "phone": "+86-755-83204910",
+      "products_on_amazon": "CM-701 3x360 Green Beam Laser Level, Cross-Line Rotary Lasers",
+      "amazon_risk_factors": "High-velocity Amazon FBA shipments subject to CBP import audits and FDA Form 2877 electronic clearance checks.",
+      "pitch_angle": "Full Form FDA 3632 radiation safety filing + FDA 2877 customs clearance document pack for $495 flat.",
+      "mx_valid": true,
+      "mx_records": [
+        "10 mxw.mxhichina.com.",
+        "5 mxn.mxhichina.com."
+      ]
+    },
+    {
+      "brand_name": "LONGER 3D",
+      "company_name": "Shenzhen Longer 3D Technology Co., Ltd.",
+      "brand_title": "Longer Laser",
+      "domain": "longer3d.com",
+      "website": "https://www.longer3d.com",
+      "email": "support@longer3d.com",
+      "phone": "+86-755-86675038",
+      "products_on_amazon": "Longer Laser B1 20W / 30W / 40W High-Power Diode Cutters",
+      "amazon_risk_factors": "Class IV laser engravers facing increasing Amazon regulatory scrutiny for CDRH accession numbers and safety interlock evidence.",
+      "pitch_angle": "Complete Form FDA 3632 engineering dossier compilation from CAD and test specs within 5 days.",
+      "mx_valid": true,
+      "mx_records": [
+        "10 mx.ym.163.com.",
+        "20 mx01.dm.aliyun.com."
+      ]
+    },
+    {
+      "brand_name": "SHEHDS Stage Lighting",
+      "company_name": "Guangzhou Shehds Stage Lighting Equipment Co., Ltd.",
+      "domain": "shehds.com",
+      "website": "https://www.shehds.com",
+      "email": "shehds@shehds.com",
+      "phone": "+86-20-86408890",
+      "products_on_amazon": "RGB 500mW - 3W DMX Animation Laser Stage Lights & Party Projectors",
+      "amazon_risk_factors": "Import Alert 95-04 Red List history; stage lasers strictly regulated under 21 CFR 1040.11(c) requiring approved variance and accession numbers.",
+      "pitch_angle": "Clearance package: Form FDA 3632 product report + FDA 3147 laser show variance assistance to unlock US entertainment markets.",
+      "mx_valid": true,
+      "mx_records": [
+        "10 mxw.mxhichina.com.",
+        "5 mxn.mxhichina.com."
+      ]
+    },
+    {
+      "brand_name": "YVE LIFE",
+      "company_name": "YVE LIFE Pet Products Inc.",
+      "domain": "yvelife.com",
+      "website": "https://www.yvelife.com",
+      "email": "support@yvelife.com",
+      "phone": "+1 (800) 555-8299",
+      "products_on_amazon": "Automated Rotating Laser Cat Toys, Interactive Laser Pointers",
+      "amazon_risk_factors": "Amazon policy specifically flags cat laser toys; mandatory FDA accession number required or ASIN faces immediate takedown.",
+      "pitch_angle": "Fast-track 5-day accession number filing for pet laser toys to un-gate Amazon ASINs and protect holiday sales.",
+      "mx_valid": true,
+      "mx_records": [
+        "10 mxw.mxhichina.com.",
+        "5 mxn.mxhichina.com."
+      ]
+    }
+  ],
+  "count": 8
+}

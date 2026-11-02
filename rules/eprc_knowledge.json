@@ -1,0 +1,251 @@
+{
+  "statutory_authority": {
+    "act": "Federal Food, Drug, and Cosmetic Act (FD&C Act)",
+    "chapter": "Chapter V, Subchapter C - Electronic Product Radiation Control (EPRC)",
+    "statute": "21 U.S.C. §§ 360hh - 360ss (formerly Radiation Control for Health and Safety Act of 1968)",
+    "regulations": "Title 21 of the Code of Federal Regulations (21 CFR Parts 1000-1050)",
+    "civil_penalties": {
+      "statutory_citation": "FD&C Act § 539(b)(1), 21 U.S.C. § 360pp(b)(1); CPG Sec. 390.300",
+      "per_violation_limit": 1100,
+      "series_maximum_limit": 330000,
+      "currency": "USD"
+    },
+    "border_enforcement": {
+      "import_alert_95_04": {
+        "title": "Detention Without Physical Examination Of Laser Pointers, Laser Gunsights, Laser Levels, Laser Light Shows, Laser Pointer Key Chains, & Similar Products That Fail To Comply With Applicable Performance Standards And Reporting Requirements",
+        "url": "https://www.accessdata.fda.gov/cms_ia/importalert_254.html",
+        "action": "DWPE (Detention Without Physical Examination)"
+      },
+      "import_alert_95_05": {
+        "title": "Detention Without Physical Examination of Electronic Products that Fail to Comply with Performance Standards or to Have Required Certification",
+        "url": "https://www.accessdata.fda.gov/cms_ia/importalert_255.html",
+        "action": "DWPE (Detention Without Physical Examination)"
+      }
+    },
+    "marketplace_mandates": {
+      "amazon": {
+        "policy": "Amazon Seller Central Help 201689020 - Laser Products Policy",
+        "requirement": "FDA Accession Number required per ASIN for listing laser products, pointers, engravers, projectors, levels, and toys."
+      }
+    }
+  },
+  "cfr_1002_1_table_1": {
+    "description": "Reporting and Recordkeeping Requirements for Laser Products under 21 CFR 1002.1 Table 1",
+    "classes": {
+      "Class I": {
+        "description": "Lasers that are safe under reasonably foreseeable conditions of operation (Accessible Emission Limit <= Class I AEL). Includes enclosed lasers where high power is completely contained inside a protective housing.",
+        "product_report_1002_10": true,
+        "supplemental_report_1002_11": true,
+        "abbreviated_report_1002_12": false,
+        "annual_report_1002_13": true,
+        "test_records_1002_30": true,
+        "distribution_records_1002_40": false,
+        "safety_features_required": ["protective_housing"]
+      },
+      "Class IIa": {
+        "description": "Visible lasers (400-710 nm) not intended for prolonged viewing, output <= Class I AEL for exposure duration <= 1,000 s (e.g., supermarket barcode scanners).",
+        "product_report_1002_10": true,
+        "supplemental_report_1002_11": true,
+        "abbreviated_report_1002_12": false,
+        "annual_report_1002_13": true,
+        "test_records_1002_30": true,
+        "distribution_records_1002_40": false,
+        "safety_features_required": ["protective_housing", "warning_label"]
+      },
+      "Class II": {
+        "description": "Visible lasers (400-710 nm) with radiant power <= 1.0 mW. Protection afforded by human aversion response / blink reflex (0.25 s).",
+        "product_report_1002_10": true,
+        "supplemental_report_1002_11": true,
+        "abbreviated_report_1002_12": false,
+        "annual_report_1002_13": true,
+        "test_records_1002_30": true,
+        "distribution_records_1002_40": false,
+        "safety_features_required": [
+          "protective_housing",
+          "safety_interlock_if_opened",
+          "emission_indicator",
+          "beam_attenuator",
+          "warning_logotype_label",
+          "aperture_label"
+        ]
+      },
+      "Class IIIa": {
+        "description": "Lasers with radiant power 1.0 mW to 5.0 mW visible (or <= 5x Class I for invisible). Includes laser pointers, gunsights, surveying and leveling lasers.",
+        "product_report_1002_10": true,
+        "supplemental_report_1002_11": true,
+        "abbreviated_report_1002_12": false,
+        "annual_report_1002_13": true,
+        "test_records_1002_30": true,
+        "distribution_records_1002_40": false,
+        "safety_features_required": [
+          "protective_housing",
+          "safety_interlock_if_opened",
+          "emission_indicator",
+          "beam_attenuator",
+          "warning_logotype_label_danger_or_caution",
+          "aperture_label"
+        ]
+      },
+      "Class IIIb": {
+        "description": "Lasers with radiant power 5.0 mW to 500 mW CW or 10 J/cm2 pulsed. Direct beam viewing is hazardous. Diffuse reflections generally safe.",
+        "product_report_1002_10": true,
+        "supplemental_report_1002_11": true,
+        "abbreviated_report_1002_12": false,
+        "annual_report_1002_13": true,
+        "test_records_1002_30": true,
+        "distribution_records_1002_40": true,
+        "safety_features_required": [
+          "protective_housing",
+          "safety_interlock_with_defeat_prevention",
+          "remote_interlock_connector",
+          "key_control",
+          "emission_indicator_with_delay",
+          "beam_attenuator",
+          "danger_warning_logotype_label",
+          "aperture_label"
+        ]
+      },
+      "Class IV": {
+        "description": "High-power lasers exceeding 500 mW CW or energetic pulses. Direct beam and diffuse reflections cause severe eye and skin burns, fire hazards.",
+        "product_report_1002_10": true,
+        "supplemental_report_1002_11": true,
+        "abbreviated_report_1002_12": false,
+        "annual_report_1002_13": true,
+        "test_records_1002_30": true,
+        "distribution_records_1002_40": true,
+        "safety_features_required": [
+          "protective_housing",
+          "safety_interlock_with_defeat_prevention",
+          "remote_interlock_connector",
+          "key_control",
+          "emission_indicator_with_delay",
+          "beam_attenuator",
+          "danger_warning_logotype_label",
+          "aperture_label"
+        ]
+      },
+      "Medical Laser Products": {
+        "description": "Laser products manufactured, designed, or intended for in vivo medical surgical, cosmetic, or therapeutic applications (21 CFR 1040.11).",
+        "product_report_1002_10": true,
+        "supplemental_report_1002_11": true,
+        "abbreviated_report_1002_12": false,
+        "annual_report_1002_13": true,
+        "test_records_1002_30": true,
+        "distribution_records_1002_40": true,
+        "safety_features_required": [
+          "measurement_system_accuracy_within_20_percent",
+          "target_indicating_aiming_beam",
+          "emergency_laser_shutoff",
+          "protective_housing",
+          "safety_interlocks",
+          "remote_interlock_connector",
+          "key_control",
+          "emission_indicator",
+          "beam_attenuator"
+        ]
+      }
+    }
+  },
+  "laser_notices": {
+    "Laser Notice 41": {
+      "title": "Laser Products: Exemption for Optical Disc Drives and Computer Peripherals",
+      "summary": "Exempts manufacturers of optical disc drives (CD/DVD/Blu-ray drives) containing Class I embedded lasers from submitting certain individual product reports provided standard certifications are maintained by OEM drive makers."
+    },
+    "Laser Notice 42": {
+      "title": "Laser Components Sold to Certified Assemblers",
+      "summary": "Clarifies that manufacturers of laser components (e.g. bare diode emitters, bare laser tubes, optics) sold exclusively to registered and certified assemblers are not required to certify the component, as long as the end-product assembler certifies the complete laser system and files the Form FDA 3632."
+    },
+    "Laser Notice 50": {
+      "title": "Guidance for Industry and FDA Staff: Conformance with IEC 60825-1 and IEC 60601-2-22",
+      "date": "June 24, 2007",
+      "summary": "FDA Center for Devices and Radiological Health (CDRH) policy recognizing conformance with IEC 60825-1 (Ed. 2) and IEC 60601-2-22 as meeting equivalent performance standards under 21 CFR 1040.10 and 1040.11, with specific US differences (e.g. certification label, identification label)."
+    },
+    "Laser Notice 54": {
+      "title": "Surveying, Leveling, and Alignment (SLA) Laser Products",
+      "summary": "Reiterates that SLA laser products (laser levels, rotary lasers, alignment lasers) must not exceed Class IIIa limits (5.0 mW radiant power). Any SLA laser exceeding 5.0 mW is noncompliant and subject to immediate DWPE detention under Import Alert 95-04."
+    },
+    "Laser Notice 56": {
+      "title": "Conformance with IEC 60825-1 Ed. 3 and IEC 60601-2-22 Ed. 3.1",
+      "date": "May 8, 2019",
+      "summary": "Updated CDRH guidance accepting compliance with IEC 60825-1 Edition 3 (2014) classifications (Class 1, 1M, 2, 2M, 3R, 3B, 4) in lieu of 21 CFR 1040.10, provided labels include required CDRH acknowledgment and certification."
+    }
+  },
+  "form_fda_2877": {
+    "title": "Declaration for Imported Electronic Products Subject to Radiation Control Standards",
+    "omb_control_number": "0910-0025",
+    "declarations": {
+      "A": {
+        "title": "Declaration A - Not Subject to Radiation Standards",
+        "description": "Product was manufactured prior to the effective date of applicable standard, or is exempt by regulation."
+      },
+      "B": {
+        "title": "Declaration B - Complies with Applicable Radiation Standards",
+        "description": "Product complies with all applicable radiation safety performance standards under 21 CFR 1010-1050. Requires certification label (21 CFR 1010.2), identification label (21 CFR 1010.3), and submission of Product Report (Form FDA 3632) under 21 CFR 1002.10.",
+        "required_fields": [
+          "manufacturer_name",
+          "manufacturer_address",
+          "date_of_manufacture",
+          "brand_name",
+          "model_number",
+          "fda_accession_number"
+        ]
+      },
+      "C": {
+        "title": "Declaration C - Non-Compliant Product Imported Under Bond",
+        "description": "Product does not comply, but is imported under Customs bond for timely reconditioning or destruction pursuant to Form FDA 766 approval."
+      },
+      "D": {
+        "title": "Declaration D - Research, Investigation, Test, or Demonstration",
+        "description": "Product is strictly for research, testing, or trade show exhibition and will NOT be introduced into commercial distribution or sold to consumers."
+      }
+    }
+  },
+  "submission_channels": {
+    "primary_email": {
+      "address": "RadHealthCustomerService@fda.hhs.gov",
+      "description": "FDA CDRH Radiation Health Customer Service - Official direct email submission channel for Form FDA 3632 and 3636 PDF documents and test reports."
+    },
+    "electronic_gateway": {
+      "portal": "FDA Electronic Submissions Gateway (ESG) / CDRH CeSub / eSubmitter software",
+      "description": "FDA free client software for generating structured XML eSubmitter packages."
+    },
+    "document_control_center": {
+      "recipient": "U.S. Food and Drug Administration, Center for Devices and Radiological Health, Document Mail Center - WO66-G609",
+      "address": "10903 New Hampshire Avenue, Silver Spring, MD 20993-0002"
+    },
+    "filing_fee": {
+      "amount": 0.0,
+      "currency": "USD",
+      "note": "FDA EPRC filings have NO statutory government filing fees. Accession numbers are issued free of charge."
+    }
+  },
+  "market_comparators": {
+    "registrar_corp": {
+      "initial_report": 995.0,
+      "annual_report": 495.0,
+      "notes": "Published pricing. Slow manual turnaround."
+    },
+    "fda_registration_assistance": {
+      "initial_report": 3500.0,
+      "annual_report": 1200.0,
+      "notes": "Premium boutique law/consulting rates."
+    },
+    "laser_product_safety": {
+      "initial_report": 3400.0,
+      "annual_report": 1000.0,
+      "notes": "High boutique advisory fees."
+    },
+    "lasermet_uk": {
+      "initial_report": 1500.0,
+      "annual_report": 340.0,
+      "notes": "~£265/annual report."
+    },
+    "eprc_laser_report_desk": {
+      "initial_report": 495.0,
+      "annual_report": 295.0,
+      "turnaround_business_days": 5,
+      "discount_vs_incumbents": "50% to 85% savings",
+      "value_prop": "Agent-accelerated Form FDA 3632/3636 compilation from customer spec sheets, CAD drawings, test reports, and label artwork."
+    }
+  }
+}
