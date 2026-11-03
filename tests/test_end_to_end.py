@@ -11,8 +11,37 @@ if str(desk_dir) not in sys.path:
     sys.path.insert(0, str(desk_dir))
 
 DATA_DIR = desk_dir / "data"
-DESKTOP_OUTBOX = Path("/home/user/Desktop/REVENUE_ACTIONS_TONIGHT/eprc-laser-report-desk_OUTBOX.md")
-DESKTOP_SCRIPT = Path("/home/user/Desktop/REVENUE_ACTIONS_TONIGHT/send_eprc_laser_outbox.py")
+
+# Canonical outbox location (configurable via env var)
+_DEFAULT_OUTBOX_DIR = Path("/home/user/revenue-eval/outbox")
+_OUTBOX_DIR = Path(os.environ.get("REVENUE_OUTBOX_DIR", str(_DEFAULT_OUTBOX_DIR)))
+
+# Desktop path kept as optional secondary location
+_DESKTOP_DIR = Path("/home/user/Desktop/REVENUE_ACTIONS_TONIGHT")
+
+
+def _resolve_artifact(filename: str) -> Path:
+    """Return the path to an artifact, preferring the canonical outbox location.
+
+    Resolution order:
+    1. ``$REVENUE_OUTBOX_DIR/<filename>`` (or the default outbox dir)
+    2. ``~/Desktop/REVENUE_ACTIONS_TONIGHT/<filename>`` (legacy/secondary)
+
+    Returns the first path that exists, falling back to the canonical path so
+    that assertion failures report the expected canonical location.
+    """
+    canonical = _OUTBOX_DIR / filename
+    if canonical.exists():
+        return canonical
+    desktop = _DESKTOP_DIR / filename
+    if desktop.exists():
+        return desktop
+    # Default to canonical so error messages point at the right place
+    return canonical
+
+
+DESKTOP_OUTBOX = _resolve_artifact("eprc-laser-report-desk_OUTBOX.md")
+DESKTOP_SCRIPT = _resolve_artifact("send_eprc_laser_outbox.py")
 
 def test_enriched_leads_count():
     leads_file = DATA_DIR / "enriched_leads.json"
